@@ -36,8 +36,9 @@ public class DetailActivity extends AppCompatActivity {
         int intImage = getIntent().getIntExtra("Image", 0);
         detailImageView.setImageResource(intImage);
         //Show Detail
-        //int strPosition = getIntent().getIntExtra("Index",0);
-
+        int intPosition = getIntent().getIntExtra("Index",0);
+        String[] detailStrings = getResources().getStringArray(R.array.detail);
+        detailTextView.setText(detailStrings[intPosition]);
 
     }   //Show View
 

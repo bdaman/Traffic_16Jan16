@@ -48,7 +48,8 @@
                 android:text="New Text"
                 android:id="@+id/txtDetail"
                 android:textSize="@dimen/h3"
-                android:padding="10dp" />
+                android:padding="10dp"
+                android:textColor="@color/colorWhite" />
         </ScrollView>
 
     </LinearLayout>
