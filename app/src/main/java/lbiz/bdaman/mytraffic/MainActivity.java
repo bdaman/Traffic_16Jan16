@@ -40,9 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //Show WebView
                 Intent objIntent = new Intent(Intent.ACTION_VIEW);
-
                 objIntent.setData(Uri.parse("https://youtu.be/i-80SGWfEjM"));
-
                 startActivity(objIntent);
 
             }   //Event
