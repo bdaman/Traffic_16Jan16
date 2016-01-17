@@ -8,5 +8,6 @@
     <dimen name="b1">20sp</dimen>
     <dimen name="icon">100dp</dimen>
     <dimen name="image">250dp</dimen>
-
+    <dimen name="scroll_width">300dp</dimen>
+    <dimen name="scroll_height">200dp</dimen>
 </resources>
