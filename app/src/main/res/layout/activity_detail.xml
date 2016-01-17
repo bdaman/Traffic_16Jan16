@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Title"
-            android:id="@+id/txtTitleDetail"
+            android:id="@+id/txtTitle"
             android:layout_centerHorizontal="true"
             android:textColor="@color/colorDark"
             android:textIsSelectable="false"
